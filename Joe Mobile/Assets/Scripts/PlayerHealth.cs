@@ -6,7 +6,7 @@ using UnityEngine.UI;
 using TMPro;
 public class PlayerHealth : MonoBehaviour
 {
-    public int health = 10;
+    public int health = 4 * PlayerPrefs.GetInt("Difficulty");
     public Slider slider;
     Rigidbody2D rb;
     bool grounded = false;
@@ -41,5 +41,11 @@ public class PlayerHealth : MonoBehaviour
         }
         
     }
+    
+    public void easy()
+    {
+        PlayerPrefs.GetInt("Difficulty");
     }
+
+}
 
