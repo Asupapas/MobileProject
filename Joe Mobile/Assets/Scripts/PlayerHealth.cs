@@ -6,13 +6,14 @@ using UnityEngine.UI;
 using TMPro;
 public class PlayerHealth : MonoBehaviour
 {
-    public int health = 4 * PlayerPrefs.GetInt("Difficulty");
+    public int health = 5;
     public Slider slider;
     Rigidbody2D rb;
     bool grounded = false;
     // Start is called before the first frame update
     void Start()
     {
+        health = 4 +PlayerPrefs.GetInt("Difficulty");
         slider.maxValue = health;
         slider.value = health;
     }
@@ -44,8 +45,22 @@ public class PlayerHealth : MonoBehaviour
     
     public void easy()
     {
-        PlayerPrefs.GetInt("Difficulty");
+        PlayerPrefs.SetInt("Difficulty", 2);
     }
 
+    public void Normal()
+    {
+        PlayerPrefs.SetInt("Difficulty", 0);
+    }
+
+    public void Hard()
+    {
+        PlayerPrefs.SetInt("Difficulty", -2);
+    }
+
+    public void Hell()
+    {
+        PlayerPrefs.SetInt("Difficulty", -4);
+    }
 }
 
