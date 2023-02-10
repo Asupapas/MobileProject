@@ -11,11 +11,11 @@ public class MobileMovement : MonoBehaviour
     [SerializeField]
     float jumpSpeed = 1.0f;
     bool grounded = false;
-    Animator ac;
+    //Animator ac;
     // Start is called before the first frame update
     void Start()
     {
-        ac = GetComponentInChildren<Animator>();
+        //ac = GetComponentInChildren<Animator>();
         rb = GetComponent<Rigidbody2D>();
     }
 
@@ -29,7 +29,7 @@ public class MobileMovement : MonoBehaviour
         Vector2 velocity = rb.velocity;
         velocity.x = moveDir * moveSpeed;
         rb.velocity = velocity;
-        ac.SetFloat("xInput", moveDir);
+        //ac.SetFloat("xInput", moveDir);
 
         if (Input.GetButtonDown("Jump"))
         {
