@@ -312,7 +312,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 98112438}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.8713521, y: -0.77333117, z: 0}
+  m_LocalPosition: {x: 1.79, y: -2.9, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -916,8 +916,8 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 0}
-          m_TargetAssemblyTypeName: MobileMove, Assembly-CSharp
+        - m_Target: {fileID: 98112444}
+          m_TargetAssemblyTypeName: MobileMovement, Assembly-CSharp
           m_MethodName: UpdateMoveDirection
           m_Mode: 3
           m_Arguments:
@@ -932,8 +932,8 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 0}
-          m_TargetAssemblyTypeName: MobileMove, Assembly-CSharp
+        - m_Target: {fileID: 98112444}
+          m_TargetAssemblyTypeName: MobileMovement, Assembly-CSharp
           m_MethodName: UpdateMoveDirection
           m_Mode: 3
           m_Arguments:
@@ -1302,8 +1302,8 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 0}
-          m_TargetAssemblyTypeName: MobileMove, Assembly-CSharp
+        - m_Target: {fileID: 98112444}
+          m_TargetAssemblyTypeName: MobileMovement, Assembly-CSharp
           m_MethodName: UpdateMoveDirection
           m_Mode: 3
           m_Arguments:
@@ -1318,8 +1318,8 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 0}
-          m_TargetAssemblyTypeName: MobileMove, Assembly-CSharp
+        - m_Target: {fileID: 98112444}
+          m_TargetAssemblyTypeName: MobileMovement, Assembly-CSharp
           m_MethodName: UpdateMoveDirection
           m_Mode: 3
           m_Arguments:
@@ -1981,9 +1981,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: MobileMove, Assembly-CSharp
-        m_MethodName: Jump
+      - m_Target: {fileID: 98112444}
+        m_TargetAssemblyTypeName: MobileMovement, Assembly-CSharp
+        m_MethodName: jump
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
