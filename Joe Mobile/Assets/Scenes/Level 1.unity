@@ -460,8 +460,8 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 1
-  m_Material: {fileID: 0}
+  m_GravityScale: 15
+  m_Material: {fileID: 6200000, guid: d029b1279fb351145897daa50047d8f9, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -632,8 +632,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e2e1a982e0a253245b35d0b9bd646d81, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 5
-  jumpSpeed: 3
+  moveSpeed: 20
+  jumpSpeed: 4
 --- !u!114 &98112445
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1439,9 +1439,9 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -2
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 0, g: 0.0035771246, b: 0.7169812, a: 1}
+  m_Color: {r: 0.14413491, g: 0.2709605, b: 0.745283, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -1570,7 +1570,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 1364705943, guid: 38afbf3a58efa3d43b47ad0dc2b6dd03, type: 3}
+  m_Sprite: {fileID: 571399634, guid: 9d5f7ce5ac1ed3844a9a920afbc22366, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -4845,7 +4845,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -480930851, guid: 38afbf3a58efa3d43b47ad0dc2b6dd03, type: 3}
+  m_Sprite: {fileID: 1246325882, guid: 9d5f7ce5ac1ed3844a9a920afbc22366, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -6461,7 +6461,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -389360347, guid: 38afbf3a58efa3d43b47ad0dc2b6dd03, type: 3}
+  m_Sprite: {fileID: 1024055105, guid: 9d5f7ce5ac1ed3844a9a920afbc22366, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
