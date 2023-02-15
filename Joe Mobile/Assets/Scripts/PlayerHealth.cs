@@ -13,7 +13,7 @@ public class PlayerHealth : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        health = 4 +PlayerPrefs.GetInt("Difficulty");
+        health = 4 + PlayerPrefs.GetInt("Difficulty");
         slider.maxValue = health;
         slider.value = health;
     }
@@ -41,26 +41,6 @@ public class PlayerHealth : MonoBehaviour
             SceneManager.LoadScene("GameOver");
         }
         
-    }
-    
-    public void easy()
-    {
-        PlayerPrefs.SetInt("Difficulty", 2);
-    }
-
-    public void Normal()
-    {
-        PlayerPrefs.SetInt("Difficulty", 0);
-    }
-
-    public void Hard()
-    {
-        PlayerPrefs.SetInt("Difficulty", -2);
-    }
-
-    public void Hell()
-    {
-        PlayerPrefs.SetInt("Difficulty", -4);
     }
 }
 

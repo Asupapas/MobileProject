@@ -17,7 +17,7 @@ public class MainMenuUI : MonoBehaviour
 
     }
 
-    public void Play()
+    public void NewGame()
     {
         Time.timeScale = 1;
         SceneManager.LoadScene("difficulty");
@@ -40,4 +40,10 @@ public class MainMenuUI : MonoBehaviour
     {
         SceneManager.LoadScene("MainMenu");
     }
+
+    public void Play()
+    {
+        SceneManager.LoadScene("Level 1");
+    }
+   
 }
