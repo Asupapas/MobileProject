@@ -11,6 +11,7 @@ public class MobileMovement : MonoBehaviour
     [SerializeField]
     float jumpSpeed = 1.0f;
     bool grounded = false;
+    [SerializeField] private float maxSpeed;
     //Animator ac;
     // Start is called before the first frame update
     void Start()
@@ -30,6 +31,10 @@ public class MobileMovement : MonoBehaviour
         velocity.x = moveDir * moveSpeed;
         rb.velocity = velocity;
         //ac.SetFloat("xInput", moveDir);
+        if (rb.velocity.magnitude > maxSpeed)
+        {
+            rb.velocity = Vector2.ClampMagnitude(rb.velocity, maxSpeed);
+        }
 
         if (Input.GetButtonDown("Jump"))
         {
