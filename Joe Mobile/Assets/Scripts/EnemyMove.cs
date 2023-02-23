@@ -5,8 +5,8 @@ using System.Collections;
 [RequireComponent(typeof(Rigidbody2D))]
 
 public class EnemyMove : MonoBehaviour {
-
-	public GameObject player;
+   [SerializeField] private float maxSpeed;
+    public GameObject player;
 	public float chaseSpeed = 2.0f;
 	public float chaseTriggerDistance = 3.0f;
 	private Vector3 startPosition;
@@ -14,17 +14,22 @@ public class EnemyMove : MonoBehaviour {
 	public Vector3 paceDirection = new Vector3 (0f, 0f, 0f);
 	public float paceDistance = 3.0f;
 	SpriteRenderer spriteRenderer;
-	// Use this for initialization
-	void Start () {
+    Rigidbody2D rb;
+    // Use this for initialization
+    void Start () {
 		//get the spawn position so we know how to get home
 		startPosition = transform.position;
-
-	}
+        rb = GetComponent<Rigidbody2D>();
+    }
 	
 	// Update is called once per frame
 	void Update () 
 	{
-		float moveX = Input.GetAxis("Horizontal");
+        if (rb.velocity.magnitude > maxSpeed)
+        {
+            rb.velocity = Vector2.ClampMagnitude(rb.velocity, maxSpeed);
+        }
+        float moveX = Input.GetAxis("Horizontal");
 		Vector3 playerPosition = player.transform.position;
 		Vector2 chaseDirection = new Vector2 (playerPosition.x - transform.position.x, 
 												playerPosition.y - transform.position.y);
