@@ -904,7 +904,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: God Mode
+  m_Text: Hell
 --- !u!222 &1618506629
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -999,7 +999,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 960071566}
         m_TargetAssemblyTypeName: Difficulty, Assembly-CSharp
-        m_MethodName: GodMode
+        m_MethodName: Hell
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
