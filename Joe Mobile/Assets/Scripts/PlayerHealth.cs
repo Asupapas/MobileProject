@@ -13,7 +13,7 @@ public class PlayerHealth : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        health = 4 + PlayerPrefs.GetInt("Difficulty");
+        health = 5 + PlayerPrefs.GetInt("Difficulty");
         slider.maxValue = health;
         slider.value = health;
     }
