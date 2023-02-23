@@ -19,25 +19,30 @@ public class Difficulty : MonoBehaviour
     public void easy()
     {
         PlayerPrefs.SetInt("Difficulty", 2);
+        PlayerPrefs.SetInt("SharkSpeed", -1);
     }
 
     public void Normal()
     {
         PlayerPrefs.SetInt("Difficulty", 0);
+        PlayerPrefs.SetInt("SharkSpeed", 0);
     }
 
     public void Hard()
     {
         PlayerPrefs.SetInt("Difficulty", -2);
+        PlayerPrefs.SetInt("SharkSpeed", 1);
     }
 
     public void Hell()
     {
         PlayerPrefs.SetInt("Difficulty", -4);
+        PlayerPrefs.SetInt("SharkSpeed", 5);
     }
 
     public void GodMode()
     {
         PlayerPrefs.SetInt("Difficulty", 9999);
+        PlayerPrefs.SetInt("SharkSpeed", 0);
     }
 }

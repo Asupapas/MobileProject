@@ -20,6 +20,7 @@ public class EnemyMove : MonoBehaviour {
 		//get the spawn position so we know how to get home
 		startPosition = transform.position;
         rb = GetComponent<Rigidbody2D>();
+        chaseSpeed = 4 + PlayerPrefs.GetInt("SharkSpeed");
     }
 	
 	// Update is called once per frame
