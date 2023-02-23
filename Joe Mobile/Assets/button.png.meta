@@ -1,12 +1,24 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 guid: f348ae21f45e40b49bc082f076c664bb
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+guid: f348ae21f45e40b49bc082f076c664bb
+=======
+<<<<<<< HEAD
+>>>>>>> 2980cdd9de11c63871c0a0d1719da9df35c9ce5f
+guid: 57fbb3d321e199c40b0e061034077b3d
+>>>>>>> 366115245085269d566d59debc0993dcdfb9b22c
+>>>>>>> b3450e6bb0fde075d759f38aeb401d363d41dedd
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
     mipMapMode: 0
-    enableMipMap: 0
+    enableMipMap: 1
     sRGBTexture: 1
     linearTexture: 0
     fadeOut: 0
@@ -37,6 +49,7 @@ TextureImporter:
     filterMode: 0
     aniso: 1
     mipBias: 0
+<<<<<<< HEAD
     wrapU: 1
     wrapV: 1
     wrapW: 0
@@ -44,6 +57,15 @@ TextureImporter:
   lightmap: 0
   compressionQuality: 50
   spriteMode: 2
+=======
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+  nPOTScale: 1
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 0
+>>>>>>> b3450e6bb0fde075d759f38aeb401d363d41dedd
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -52,10 +74,10 @@ TextureImporter:
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
-  alphaIsTransparency: 1
+  alphaIsTransparency: 0
   spriteTessellationDetail: -1
-  textureType: 8
-  textureShape: 1
+  textureType: 0
+  textureShape: 2
   singleChannelComponent: 0
   flipbookRows: 1
   flipbookColumns: 1
@@ -142,7 +164,11 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
+<<<<<<< HEAD
     spriteID: 37b45d8c614a7e340bf2c47cf6a93f7d
+=======
+    spriteID: 
+>>>>>>> b3450e6bb0fde075d759f38aeb401d363d41dedd
     internalID: 0
     vertices: []
     indices: 
@@ -156,3 +182,15 @@ TextureImporter:
   userData: 
   assetBundleName: 
   assetBundleVariant: 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+guid: f348ae21f45e40b49bc082f076c664bb
+>>>>>>> e9b57be657cc78306536214b627485cff2651f7f
+>>>>>>> 366115245085269d566d59debc0993dcdfb9b22c
+>>>>>>> 2980cdd9de11c63871c0a0d1719da9df35c9ce5f
+>>>>>>> b3450e6bb0fde075d759f38aeb401d363d41dedd
