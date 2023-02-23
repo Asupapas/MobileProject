@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
-
+using Unity.VisualScripting;
+using UnityEngine.EventSystems;
 
 [RequireComponent(typeof(Rigidbody2D))]
 
@@ -15,22 +16,24 @@ public class EnemyMove : MonoBehaviour {
 	public float paceDistance = 3.0f;
 	SpriteRenderer spriteRenderer;
     Rigidbody2D rb;
+    Animator ac;
     // Use this for initialization
     void Start () {
 		//get the spawn position so we know how to get home
 		startPosition = transform.position;
         rb = GetComponent<Rigidbody2D>();
         chaseSpeed = 4 + PlayerPrefs.GetInt("SharkSpeed");
+        ac = GetComponent<Animator>();
     }
 	
 	// Update is called once per frame
 	void Update () 
 	{
+        
         if (rb.velocity.magnitude > maxSpeed)
         {
             rb.velocity = Vector2.ClampMagnitude(rb.velocity, maxSpeed);
         }
-        float moveX = Input.GetAxis("Horizontal");
 		Vector3 playerPosition = player.transform.position;
 		Vector2 chaseDirection = new Vector2 (playerPosition.x - transform.position.x, 
 												playerPosition.y - transform.position.y);
@@ -39,7 +42,7 @@ public class EnemyMove : MonoBehaviour {
 			home = false;
 			chaseDirection.Normalize ();
 			GetComponent<Rigidbody2D> ().velocity = chaseDirection * chaseSpeed;
-		} else if (home == false) {
+        } else if (home == false) {
 			Vector2 homeDirection = new Vector2 (startPosition.x - transform.position.x,
 				                        startPosition.y - transform.position.y);
 			if (homeDirection.magnitude < 0.3f) {
