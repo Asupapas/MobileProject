@@ -23,17 +23,33 @@ public class EnemyMove : MonoBehaviour {
 		startPosition = transform.position;
         rb = GetComponent<Rigidbody2D>();
         chaseSpeed = 4 + PlayerPrefs.GetInt("SharkSpeed");
-        ac = GetComponent<Animator>();
+        ac = GetComponentInParent<Animator>();
     }
 	
 	// Update is called once per frame
 	void Update () 
 	{
+        
         if (rb.velocity.magnitude > maxSpeed)
         {
             rb.velocity = Vector2.ClampMagnitude(rb.velocity, maxSpeed);
         }
-		Vector3 playerPosition = player.transform.position;
+		if(rb.velocity.x < 0)
+		{
+            Vector3 scale = transform.localScale;
+            scale.x = 1;
+            transform.localScale = scale;
+			ac.SetFloat("xInput", -1);
+        }
+        if (rb.velocity.x > 0)
+        {
+            Vector3 scale = transform.localScale;
+            scale.x = -1;
+            transform.localScale = scale;
+            ac.SetFloat("xInput", 1);
+        }
+		
+        Vector3 playerPosition = player.transform.position;
 		Vector2 chaseDirection = new Vector2 (playerPosition.x - transform.position.x, 
 												playerPosition.y - transform.position.y);
 		if (chaseDirection.magnitude < chaseTriggerDistance) {
@@ -41,7 +57,6 @@ public class EnemyMove : MonoBehaviour {
 			home = false;
 			chaseDirection.Normalize ();
 			GetComponent<Rigidbody2D> ().velocity = chaseDirection * chaseSpeed;
-			ac.SetFloat("xInput", chaseDirection.magnitude);
         } else if (home == false) {
 			Vector2 homeDirection = new Vector2 (startPosition.x - transform.position.x,
 				                        startPosition.y - transform.position.y);
@@ -63,18 +78,8 @@ public class EnemyMove : MonoBehaviour {
 			}
 			paceDirection.Normalize ();
 			GetComponent<Rigidbody2D> ().velocity = paceDirection * chaseSpeed;
-            if (chaseDirection.magnitude > 0)
-            {
-                Vector3 scale = transform.localScale;
-                scale.x = 1;
-                transform.localScale = scale;
-            }
-            if (chaseDirection.magnitude < 0)
-            {
-                Vector3 scale = transform.transform.localScale;
-                scale.x = -1;
-                transform.localScale = scale;
-            }
-        }
+			if (chaseDirection.magnitude < 0) ;
+			
+		}
 	}
 }

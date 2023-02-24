@@ -31,13 +31,13 @@ public class Difficulty : MonoBehaviour
     public void Hard()
     {
         PlayerPrefs.SetInt("Difficulty", -2);
-        PlayerPrefs.SetInt("SharkSpeed", 1);
+        PlayerPrefs.SetInt("SharkSpeed", 4);
     }
 
     public void Hell()
     {
         PlayerPrefs.SetInt("Difficulty", -4);
-        PlayerPrefs.SetInt("SharkSpeed", 5);
+        PlayerPrefs.SetInt("SharkSpeed", 10);
     }
 
     public void GodMode()
