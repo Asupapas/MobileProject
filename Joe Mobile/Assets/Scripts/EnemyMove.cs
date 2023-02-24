@@ -29,7 +29,6 @@ public class EnemyMove : MonoBehaviour {
 	// Update is called once per frame
 	void Update () 
 	{
-        
         if (rb.velocity.magnitude > maxSpeed)
         {
             rb.velocity = Vector2.ClampMagnitude(rb.velocity, maxSpeed);
@@ -42,6 +41,7 @@ public class EnemyMove : MonoBehaviour {
 			home = false;
 			chaseDirection.Normalize ();
 			GetComponent<Rigidbody2D> ().velocity = chaseDirection * chaseSpeed;
+			ac.SetFloat("xInput", chaseDirection.magnitude);
         } else if (home == false) {
 			Vector2 homeDirection = new Vector2 (startPosition.x - transform.position.x,
 				                        startPosition.y - transform.position.y);
@@ -63,14 +63,18 @@ public class EnemyMove : MonoBehaviour {
 			}
 			paceDirection.Normalize ();
 			GetComponent<Rigidbody2D> ().velocity = paceDirection * chaseSpeed;
-			if (moveX < 0)
-			{
-				spriteRenderer.flipX = true;
-			}
-			else if (moveX > 0)
-			{
-				spriteRenderer.flipX = false;
-			}
-		}
+            if (chaseDirection.magnitude > 0)
+            {
+                Vector3 scale = transform.localScale;
+                scale.x = 1;
+                transform.localScale = scale;
+            }
+            if (chaseDirection.magnitude < 0)
+            {
+                Vector3 scale = transform.transform.localScale;
+                scale.x = -1;
+                transform.localScale = scale;
+            }
+        }
 	}
 }
