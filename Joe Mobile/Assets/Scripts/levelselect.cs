@@ -57,25 +57,30 @@ public class levelselect : MonoBehaviour
         level03Button.interactable = false;
         level04Button.interactable = false;
         level05Button.interactable = false;
-        PlayerPrefs.DeleteAll();
+        PlayerPrefs.DeleteKey("LevelPassed");
     }
     public void loadLevel2()
     {
-        SceneManager.LoadScene("Level2");
+        SceneManager.LoadScene("Level 2");
     }
 
     public void loadLevel3()
     {
-        SceneManager.LoadScene("Level3");
+        SceneManager.LoadScene("Level 3");
     }
 
     public void loadLevel4()
     {
-        SceneManager.LoadScene("Level4");
+        SceneManager.LoadScene("Level 4");
     }
 
     public void loadlevel5()
     {
-        SceneManager.LoadScene("Level5");
+        SceneManager.LoadScene("Level 5");
+    }
+
+    public void loadlevel1()
+    {
+        SceneManager.LoadScene("Level 1");
     }
 }
