@@ -36,10 +36,60 @@ SpriteAtlas:
     - {fileID: 2800000, guid: 7cdb563d82b9a424c864466aa5e895c9, type: 3}
     - {fileID: 2800000, guid: 9d5f7ce5ac1ed3844a9a920afbc22366, type: 3}
     - {fileID: 2800000, guid: 22cba09a166baee48a005fc47c0304f1, type: 3}
+    - {fileID: 2800000, guid: 85a3ea78658a3d745a0d82e056892bdf, type: 3}
+    - {fileID: 2800000, guid: 4b4e99051bf319245baedb26d2b7dd2e, type: 3}
     bindAsDefault: 1
     isAtlasV2: 0
     cachedData: {fileID: 0}
     packedSpriteRenderDataKeys:
+    - 4b4e99051bf319245baedb26d2b7dd2e: 104294221
+    - 4b4e99051bf319245baedb26d2b7dd2e: 925154438
+    - 4b4e99051bf319245baedb26d2b7dd2e: 935176
+    - 4b4e99051bf319245baedb26d2b7dd2e: -1824181799
+    - 4b4e99051bf319245baedb26d2b7dd2e: 1392464300
+    - 4b4e99051bf319245baedb26d2b7dd2e: -647174737
+    - 4b4e99051bf319245baedb26d2b7dd2e: 152829392
+    - 4b4e99051bf319245baedb26d2b7dd2e: -306012391
+    - 4b4e99051bf319245baedb26d2b7dd2e: 887117894
+    - 4b4e99051bf319245baedb26d2b7dd2e: -735637790
+    - 4b4e99051bf319245baedb26d2b7dd2e: 1974394383
+    - 4b4e99051bf319245baedb26d2b7dd2e: 197919511
+    - 4b4e99051bf319245baedb26d2b7dd2e: 301349623
+    - 4b4e99051bf319245baedb26d2b7dd2e: 1963769510
+    - 4b4e99051bf319245baedb26d2b7dd2e: -1799481914
+    - 4b4e99051bf319245baedb26d2b7dd2e: -1354981366
+    - 4b4e99051bf319245baedb26d2b7dd2e: 1607481619
+    - 4b4e99051bf319245baedb26d2b7dd2e: 220044578
+    - 4b4e99051bf319245baedb26d2b7dd2e: -453575456
+    - 4b4e99051bf319245baedb26d2b7dd2e: -1356644465
+    - 4b4e99051bf319245baedb26d2b7dd2e: -1770902356
+    - 4b4e99051bf319245baedb26d2b7dd2e: 1331777224
+    - 4b4e99051bf319245baedb26d2b7dd2e: 625036784
+    - 4b4e99051bf319245baedb26d2b7dd2e: 1421332157
+    - 4b4e99051bf319245baedb26d2b7dd2e: -14438123
+    - 4b4e99051bf319245baedb26d2b7dd2e: 1046074952
+    - 4b4e99051bf319245baedb26d2b7dd2e: -2058041878
+    - 4b4e99051bf319245baedb26d2b7dd2e: 1456422131
+    - 4b4e99051bf319245baedb26d2b7dd2e: 1560645739
+    - 4b4e99051bf319245baedb26d2b7dd2e: -1015042154
+    - 4b4e99051bf319245baedb26d2b7dd2e: -319132930
+    - 4b4e99051bf319245baedb26d2b7dd2e: -1134657522
+    - 4b4e99051bf319245baedb26d2b7dd2e: 1227895088
+    - 4b4e99051bf319245baedb26d2b7dd2e: -380125279
+    - 4b4e99051bf319245baedb26d2b7dd2e: 1681827866
+    - 4b4e99051bf319245baedb26d2b7dd2e: -1998666840
+    - 4b4e99051bf319245baedb26d2b7dd2e: -1497555011
+    - 4b4e99051bf319245baedb26d2b7dd2e: 1728386894
+    - 4b4e99051bf319245baedb26d2b7dd2e: 652958875
+    - 4b4e99051bf319245baedb26d2b7dd2e: -604997518
+    - 4b4e99051bf319245baedb26d2b7dd2e: -363016773
+    - 4b4e99051bf319245baedb26d2b7dd2e: -247764247
+    - 4b4e99051bf319245baedb26d2b7dd2e: -1466760355
+    - 4b4e99051bf319245baedb26d2b7dd2e: -70862708
+    - 4b4e99051bf319245baedb26d2b7dd2e: -1219599856
+    - 4b4e99051bf319245baedb26d2b7dd2e: -558960327
+    - 4b4e99051bf319245baedb26d2b7dd2e: 1305963017
+    - 4b4e99051bf319245baedb26d2b7dd2e: 1449882851
     - 9d5f7ce5ac1ed3844a9a920afbc22366: 1246325882
     - 9d5f7ce5ac1ed3844a9a920afbc22366: 1545635318
     - 9d5f7ce5ac1ed3844a9a920afbc22366: 571399634
@@ -55,6 +105,20 @@ SpriteAtlas:
     - 22bfa17791106414393af7bc720a2867: -1926810979
     - 22bfa17791106414393af7bc720a2867: -1382122249
     - 22bfa17791106414393af7bc720a2867: 1611455188
+    - 85a3ea78658a3d745a0d82e056892bdf: 993719645
+    - 85a3ea78658a3d745a0d82e056892bdf: -1412826847
+    - 85a3ea78658a3d745a0d82e056892bdf: 790627763
+    - 85a3ea78658a3d745a0d82e056892bdf: -1492974776
+    - 85a3ea78658a3d745a0d82e056892bdf: 483701934
+    - 85a3ea78658a3d745a0d82e056892bdf: 547495238
+    - 85a3ea78658a3d745a0d82e056892bdf: -461137982
+    - 85a3ea78658a3d745a0d82e056892bdf: 1910793976
+    - 85a3ea78658a3d745a0d82e056892bdf: 398921331
+    - 85a3ea78658a3d745a0d82e056892bdf: 1372574478
+    - 85a3ea78658a3d745a0d82e056892bdf: 1716698823
+    - 85a3ea78658a3d745a0d82e056892bdf: -1488410907
+    - 85a3ea78658a3d745a0d82e056892bdf: 15649927
+    - 85a3ea78658a3d745a0d82e056892bdf: 626289125
     - 22cba09a166baee48a005fc47c0304f1: 1800560177
     - 22cba09a166baee48a005fc47c0304f1: -1556495299
     - 22cba09a166baee48a005fc47c0304f1: -1789266120
@@ -109,6 +173,54 @@ SpriteAtlas:
     - 7cdb563d82b9a424c864466aa5e895c9: -111077334
   m_MasterAtlas: {fileID: 0}
   m_PackedSprites:
+  - {fileID: 104294221, guid: 4b4e99051bf319245baedb26d2b7dd2e, type: 3}
+  - {fileID: 925154438, guid: 4b4e99051bf319245baedb26d2b7dd2e, type: 3}
+  - {fileID: 935176, guid: 4b4e99051bf319245baedb26d2b7dd2e, type: 3}
+  - {fileID: -1824181799, guid: 4b4e99051bf319245baedb26d2b7dd2e, type: 3}
+  - {fileID: 1392464300, guid: 4b4e99051bf319245baedb26d2b7dd2e, type: 3}
+  - {fileID: -647174737, guid: 4b4e99051bf319245baedb26d2b7dd2e, type: 3}
+  - {fileID: 152829392, guid: 4b4e99051bf319245baedb26d2b7dd2e, type: 3}
+  - {fileID: -306012391, guid: 4b4e99051bf319245baedb26d2b7dd2e, type: 3}
+  - {fileID: 887117894, guid: 4b4e99051bf319245baedb26d2b7dd2e, type: 3}
+  - {fileID: -735637790, guid: 4b4e99051bf319245baedb26d2b7dd2e, type: 3}
+  - {fileID: 1974394383, guid: 4b4e99051bf319245baedb26d2b7dd2e, type: 3}
+  - {fileID: 197919511, guid: 4b4e99051bf319245baedb26d2b7dd2e, type: 3}
+  - {fileID: 301349623, guid: 4b4e99051bf319245baedb26d2b7dd2e, type: 3}
+  - {fileID: 1963769510, guid: 4b4e99051bf319245baedb26d2b7dd2e, type: 3}
+  - {fileID: -1799481914, guid: 4b4e99051bf319245baedb26d2b7dd2e, type: 3}
+  - {fileID: -1354981366, guid: 4b4e99051bf319245baedb26d2b7dd2e, type: 3}
+  - {fileID: 1607481619, guid: 4b4e99051bf319245baedb26d2b7dd2e, type: 3}
+  - {fileID: 220044578, guid: 4b4e99051bf319245baedb26d2b7dd2e, type: 3}
+  - {fileID: -453575456, guid: 4b4e99051bf319245baedb26d2b7dd2e, type: 3}
+  - {fileID: -1356644465, guid: 4b4e99051bf319245baedb26d2b7dd2e, type: 3}
+  - {fileID: -1770902356, guid: 4b4e99051bf319245baedb26d2b7dd2e, type: 3}
+  - {fileID: 1331777224, guid: 4b4e99051bf319245baedb26d2b7dd2e, type: 3}
+  - {fileID: 625036784, guid: 4b4e99051bf319245baedb26d2b7dd2e, type: 3}
+  - {fileID: 1421332157, guid: 4b4e99051bf319245baedb26d2b7dd2e, type: 3}
+  - {fileID: -14438123, guid: 4b4e99051bf319245baedb26d2b7dd2e, type: 3}
+  - {fileID: 1046074952, guid: 4b4e99051bf319245baedb26d2b7dd2e, type: 3}
+  - {fileID: -2058041878, guid: 4b4e99051bf319245baedb26d2b7dd2e, type: 3}
+  - {fileID: 1456422131, guid: 4b4e99051bf319245baedb26d2b7dd2e, type: 3}
+  - {fileID: 1560645739, guid: 4b4e99051bf319245baedb26d2b7dd2e, type: 3}
+  - {fileID: -1015042154, guid: 4b4e99051bf319245baedb26d2b7dd2e, type: 3}
+  - {fileID: -319132930, guid: 4b4e99051bf319245baedb26d2b7dd2e, type: 3}
+  - {fileID: -1134657522, guid: 4b4e99051bf319245baedb26d2b7dd2e, type: 3}
+  - {fileID: 1227895088, guid: 4b4e99051bf319245baedb26d2b7dd2e, type: 3}
+  - {fileID: -380125279, guid: 4b4e99051bf319245baedb26d2b7dd2e, type: 3}
+  - {fileID: 1681827866, guid: 4b4e99051bf319245baedb26d2b7dd2e, type: 3}
+  - {fileID: -1998666840, guid: 4b4e99051bf319245baedb26d2b7dd2e, type: 3}
+  - {fileID: -1497555011, guid: 4b4e99051bf319245baedb26d2b7dd2e, type: 3}
+  - {fileID: 1728386894, guid: 4b4e99051bf319245baedb26d2b7dd2e, type: 3}
+  - {fileID: 652958875, guid: 4b4e99051bf319245baedb26d2b7dd2e, type: 3}
+  - {fileID: -604997518, guid: 4b4e99051bf319245baedb26d2b7dd2e, type: 3}
+  - {fileID: -363016773, guid: 4b4e99051bf319245baedb26d2b7dd2e, type: 3}
+  - {fileID: -247764247, guid: 4b4e99051bf319245baedb26d2b7dd2e, type: 3}
+  - {fileID: -1466760355, guid: 4b4e99051bf319245baedb26d2b7dd2e, type: 3}
+  - {fileID: -70862708, guid: 4b4e99051bf319245baedb26d2b7dd2e, type: 3}
+  - {fileID: -1219599856, guid: 4b4e99051bf319245baedb26d2b7dd2e, type: 3}
+  - {fileID: -558960327, guid: 4b4e99051bf319245baedb26d2b7dd2e, type: 3}
+  - {fileID: 1305963017, guid: 4b4e99051bf319245baedb26d2b7dd2e, type: 3}
+  - {fileID: 1449882851, guid: 4b4e99051bf319245baedb26d2b7dd2e, type: 3}
   - {fileID: 1246325882, guid: 9d5f7ce5ac1ed3844a9a920afbc22366, type: 3}
   - {fileID: 1545635318, guid: 9d5f7ce5ac1ed3844a9a920afbc22366, type: 3}
   - {fileID: 571399634, guid: 9d5f7ce5ac1ed3844a9a920afbc22366, type: 3}
@@ -124,6 +236,20 @@ SpriteAtlas:
   - {fileID: -1926810979, guid: 22bfa17791106414393af7bc720a2867, type: 3}
   - {fileID: -1382122249, guid: 22bfa17791106414393af7bc720a2867, type: 3}
   - {fileID: 1611455188, guid: 22bfa17791106414393af7bc720a2867, type: 3}
+  - {fileID: 993719645, guid: 85a3ea78658a3d745a0d82e056892bdf, type: 3}
+  - {fileID: -1412826847, guid: 85a3ea78658a3d745a0d82e056892bdf, type: 3}
+  - {fileID: 790627763, guid: 85a3ea78658a3d745a0d82e056892bdf, type: 3}
+  - {fileID: -1492974776, guid: 85a3ea78658a3d745a0d82e056892bdf, type: 3}
+  - {fileID: 483701934, guid: 85a3ea78658a3d745a0d82e056892bdf, type: 3}
+  - {fileID: 547495238, guid: 85a3ea78658a3d745a0d82e056892bdf, type: 3}
+  - {fileID: -461137982, guid: 85a3ea78658a3d745a0d82e056892bdf, type: 3}
+  - {fileID: 1910793976, guid: 85a3ea78658a3d745a0d82e056892bdf, type: 3}
+  - {fileID: 398921331, guid: 85a3ea78658a3d745a0d82e056892bdf, type: 3}
+  - {fileID: 1372574478, guid: 85a3ea78658a3d745a0d82e056892bdf, type: 3}
+  - {fileID: 1716698823, guid: 85a3ea78658a3d745a0d82e056892bdf, type: 3}
+  - {fileID: -1488410907, guid: 85a3ea78658a3d745a0d82e056892bdf, type: 3}
+  - {fileID: 15649927, guid: 85a3ea78658a3d745a0d82e056892bdf, type: 3}
+  - {fileID: 626289125, guid: 85a3ea78658a3d745a0d82e056892bdf, type: 3}
   - {fileID: 1800560177, guid: 22cba09a166baee48a005fc47c0304f1, type: 3}
   - {fileID: -1556495299, guid: 22cba09a166baee48a005fc47c0304f1, type: 3}
   - {fileID: -1789266120, guid: 22cba09a166baee48a005fc47c0304f1, type: 3}
@@ -177,6 +303,54 @@ SpriteAtlas:
   - {fileID: 1936685578, guid: 7cdb563d82b9a424c864466aa5e895c9, type: 3}
   - {fileID: -111077334, guid: 7cdb563d82b9a424c864466aa5e895c9, type: 3}
   m_PackedSpriteNamesToIndex:
+  - fixed wave 96 x 96 48 frames (1)_21
+  - fixed wave 96 x 96 48 frames (1)_20
+  - fixed wave 96 x 96 48 frames (1)_23
+  - fixed wave 96 x 96 48 frames (1)_22
+  - fixed wave 96 x 96 48 frames (1)_25
+  - fixed wave 96 x 96 48 frames (1)_24
+  - fixed wave 96 x 96 48 frames (1)_27
+  - fixed wave 96 x 96 48 frames (1)_47
+  - fixed wave 96 x 96 48 frames (1)_26
+  - fixed wave 96 x 96 48 frames (1)_46
+  - fixed wave 96 x 96 48 frames (1)_29
+  - fixed wave 96 x 96 48 frames (1)_45
+  - fixed wave 96 x 96 48 frames (1)_28
+  - fixed wave 96 x 96 48 frames (1)_44
+  - fixed wave 96 x 96 48 frames (1)_43
+  - fixed wave 96 x 96 48 frames (1)_42
+  - fixed wave 96 x 96 48 frames (1)_41
+  - fixed wave 96 x 96 48 frames (1)_40
+  - fixed wave 96 x 96 48 frames (1)_18
+  - fixed wave 96 x 96 48 frames (1)_19
+  - fixed wave 96 x 96 48 frames (1)_10
+  - fixed wave 96 x 96 48 frames (1)_11
+  - fixed wave 96 x 96 48 frames (1)_12
+  - fixed wave 96 x 96 48 frames (1)_13
+  - fixed wave 96 x 96 48 frames (1)_14
+  - fixed wave 96 x 96 48 frames (1)_38
+  - fixed wave 96 x 96 48 frames (1)_15
+  - fixed wave 96 x 96 48 frames (1)_39
+  - fixed wave 96 x 96 48 frames (1)_16
+  - fixed wave 96 x 96 48 frames (1)_36
+  - fixed wave 96 x 96 48 frames (1)_17
+  - fixed wave 96 x 96 48 frames (1)_37
+  - fixed wave 96 x 96 48 frames (1)_34
+  - fixed wave 96 x 96 48 frames (1)_35
+  - fixed wave 96 x 96 48 frames (1)_32
+  - fixed wave 96 x 96 48 frames (1)_33
+  - fixed wave 96 x 96 48 frames (1)_30
+  - fixed wave 96 x 96 48 frames (1)_31
+  - fixed wave 96 x 96 48 frames (1)_9
+  - fixed wave 96 x 96 48 frames (1)_8
+  - fixed wave 96 x 96 48 frames (1)_1
+  - fixed wave 96 x 96 48 frames (1)_0
+  - fixed wave 96 x 96 48 frames (1)_3
+  - fixed wave 96 x 96 48 frames (1)_2
+  - fixed wave 96 x 96 48 frames (1)_5
+  - fixed wave 96 x 96 48 frames (1)_4
+  - fixed wave 96 x 96 48 frames (1)_7
+  - fixed wave 96 x 96 48 frames (1)_6
   - 96 x96 buttons for movment_2
   - 96 x96 buttons for movment_3
   - 96 x96 buttons for movment_0
@@ -192,6 +366,20 @@ SpriteAtlas:
   - deep sea 96 x 96_1
   - deep sea 96 x 96_0
   - deep sea 96 x 96_10
+  - 18 x 37 player walk_1
+  - 18 x 37 player walk_0
+  - 18 x 37 player walk_3
+  - 18 x 37 player walk_2
+  - 18 x 37 player walk_5
+  - 18 x 37 player walk_4
+  - 18 x 37 player walk_7
+  - 18 x 37 player walk_6
+  - 18 x 37 player walk_9
+  - 18 x 37 player walk_8
+  - 18 x 37 player walk_10
+  - 18 x 37 player walk_11
+  - 18 x 37 player walk_12
+  - 18 x 37 player walk_13
   - water 96 x 96_38
   - water 96 x 96_39
   - water 96 x 96_29
